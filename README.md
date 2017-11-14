@@ -7,6 +7,13 @@ docker-composer up
 
 The site will be accessible at localhost:3000, once the docker-compose process has completed starting up. 
 
+So... I'm midway through this thing, and I think I might have gone a bit overboard with it...
+I'm currently at the commit after the one below. T'was gonna be one hella awesome app. Now I'm reconsidering my approach.
+
+```bash
+git reset --hard 9eb984c
+```
+
 
 
 
