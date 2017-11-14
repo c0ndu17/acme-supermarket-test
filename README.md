@@ -1,21 +1,12 @@
 # ACME Supermarket
 
-# Running
-```bash
-docker-composer up
-```
-
-The site will be accessible at localhost:3000, once the docker-compose process has completed starting up. 
-
 So... I'm midway through this thing, and I think I might have gone a bit overboard with it...
 I'm currently at the commit after the one below. T'was gonna be one hella awesome app. Now I'm reconsidering my approach.
 
-```bash
-git reset --hard 9eb984c
-```
+After much contemplation, I'm guessing you have test suite. So I've made a folder called the-droid-you-seek, which houses that which I think you want. I can't bare to delete all the code I just wrote though, at least you'll see my style.
 
-
-
+# Running
+import Basket.js
 
 Create a solution for the ACME Supermarket problem.
 
@@ -34,7 +25,7 @@ Our CEO is a big fan of buy-one-get-one-free offers and of fruit tea. He wants u
 The COO, though, likes low prices and wants people buying strawberries to get a price discount for bulk purchases. If you buy 3 or more strawberries, the price should drop to £4.50.
 Our check-out can scan items in any order, and because the CEO and COO change their minds often, it needs to be flexible regarding our pricing rules.
 
-The interface to our basket looks like this (shown in JavaScript):
+The interface to our basket looks like this (shown in ):
 
     var basket = new Basket(pricingRules)
     basket.add(item)
