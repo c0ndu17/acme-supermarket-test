@@ -6,6 +6,13 @@ const initialState = fromJS({
 });
 
 export default function app(state = initialState, action = {}){
-  return state;
+  switch(action.type) {
+    case types.DRAWER_OPEN:
+      return state.set('drawerOpen', true);
+    case types.DRAWER_CLOSE:
+      return state.set('drawerOpen', false);
+    default: 
+      return state;
+  }
 }
 

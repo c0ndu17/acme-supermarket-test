@@ -11,6 +11,7 @@ import configureStore from '../configureStore';
  * Containers
  */
 import DevTools from '../containers/devTools';
+import Sidebar from '../containers/sidebar';
 
 /*
  * Components
@@ -30,6 +31,7 @@ class App extends Component {
       <MuiThemeProvider>
         <Provider store={store}>
           <div>
+            <Sidebar />
             <Header />
             <DevTools />
           </div>
