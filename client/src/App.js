@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import RaisedButton from 'material-ui/RaisedButton';
+
+
+
+/**
+ * Styles
+ */ 
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        Hello World!
-      </div>
+      <MuiThemeProvider>
+        <div className="App">
+          <RaisedButton label="Hello World" />
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
