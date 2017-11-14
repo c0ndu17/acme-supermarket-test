@@ -5,6 +5,6 @@ const initialState = fromJS({
   items: {},
 });
 
-export default function basket(state = initialState, action = {}){
+export default function basket(state = initialState, action = {}) {
   return state;
 }

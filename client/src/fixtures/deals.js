@@ -8,8 +8,8 @@ export default [
     }
   },
   {
-    name: "3+ strawberries",
+    name: "3+ Rawberries *Yes that's on purpose*",
     terms: (productIds) => {
     }
-  }
+  },
 ]

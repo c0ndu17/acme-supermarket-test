@@ -5,7 +5,8 @@
 docker-composer up
 ```
 
-The site will be accessible at localhost:3000, once the docker-compose process has been completed. 
+The site will be accessible at localhost:3000, once the docker-compose process has completed starting up. 
+
 
 
 
