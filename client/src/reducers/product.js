@@ -1,8 +1,9 @@
+import { fromJS } from 'immutable';
 import * as types from '../actions/actionTypes';
 
-const initialState = {
-
-};
+const initialState = fromJS({
+  items: {},
+});
 
 export default function product(state = initialState, action = {}){
   return state;
