@@ -1,5 +1,14 @@
 # ACME Supermarket
 
+# Running
+```bash
+docker-composer up
+```
+
+The site will be accessible at localhost:3000, once the docker-compose process has been completed. 
+
+
+
 Create a solution for the ACME Supermarket problem.
 
 ## Description of the problem
