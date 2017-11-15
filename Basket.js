@@ -1,14 +1,6 @@
-// Basket: FR1, SR1, FR1, CF1
-// Total price expected: £19.34
-
-// Basket: FR1, FR1
-// Total price expected: £3.11
-
-// Basket: SR1, SR1, FR1, SR1
-// Total price expected: £16.61
-//
-
-
+/**
+ * Basket
+ */
 function Basket(pricingRules) {
   this.items = {};
   this.pricingRules = pricingRules;

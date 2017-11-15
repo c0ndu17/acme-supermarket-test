@@ -1,12 +1,11 @@
 # ACME Supermarket
 
-So... I'm midway through this thing, and I think I might have gone a bit overboard with it...
-I'm currently at the commit after the one below. T'was gonna be one hella awesome app. Now I'm reconsidering my approach.
-
-After much contemplation, I'm guessing you have test suite. So I've made a folder called the-droid-you-seek, which houses that which I think you want. I can't bare to delete all the code I just wrote though, at least you'll see my style.
+So I was middway through coding this an app, when I realised that wasn't what you were looking for... it's still in the tree so reset to 9eb984c, if you like.
 
 # Running
-import Basket.js
+```bash
+npm start
+``` 
 
 Create a solution for the ACME Supermarket problem.
 
